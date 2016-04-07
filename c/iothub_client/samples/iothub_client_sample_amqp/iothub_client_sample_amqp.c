@@ -15,7 +15,7 @@
 #include "certs.h"
 #endif // MBED_BUILD_TIMESTAMP
 
-static const char* connectionString = "[device connection string]";
+static const char* connectionString = "adjusted connection string.";
 static int callbackCounter;
 
 DEFINE_ENUM_STRINGS(IOTHUB_CLIENT_CONFIRMATION_RESULT, IOTHUB_CLIENT_CONFIRMATION_RESULT_VALUES);
